@@ -378,10 +378,10 @@ body{
 
 }
 .r1img{
-    width:100%;
+    width:18rem;
 }
 .r1img img{
-    width: 18rem;
+    width: 100%;
 }
 .r1desc{
     display: flex;
@@ -407,10 +407,10 @@ body{
 
 }
 .r2img{
-    width:100%;
+    width:18rem;
 }
 .r2img img{
-    width: 18rem;
+    width: 100%;
     border-radius: 10px;
 }
 .r2desc{
@@ -616,5 +616,14 @@ body{
     }
     .contactintro{
         width:90%;
+    }
+    .r1desc,.r2desc{
+        font-size: 1rem;
+    }
+    .r1img,.r2img{
+        width:15rem;
+    }
+    .review1,.review2{
+        gap: 3rem;
     }
 }
