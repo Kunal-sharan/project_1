@@ -21,7 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1%;
-    background-color: #F8D553;
+    background-color:rgb(146, 215, 249);
     background-image: url(mainbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,12 +381,12 @@ body{
     width:100%;
 }
 .r1img img{
-    width: 300px;
+    width: 18rem;
 }
 .r1desc{
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 600;
     gap : 1rem;
 }
@@ -410,13 +410,13 @@ body{
     width:100%;
 }
 .r2img img{
-    width: 300px;
+    width: 18rem;
     border-radius: 10px;
 }
 .r2desc{
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 600;
     gap : 1rem;
 }
@@ -499,7 +499,7 @@ body{
         transition: all 0.5s ease-out ;
     }
     .navbar{
-        height: 70px;
+        height: 6rem;
         border-radius: 10px;
         width: 100%;
         
@@ -521,8 +521,8 @@ body{
     .hamburger{
         display: block;
         position: absolute;
-        left: 90%;
-        top:5%
+        left: 88%;
+        top:8%
     
     }
     .line{
@@ -579,8 +579,11 @@ body{
         text-align: left;
     }
     .reviewcontent{
-        display: none;
-    }
+        }
+        .review1,.review2{
+            display: flex;
+            flex-direction: column;
+        }
     .email{
         border-radius: 30px;
     }
